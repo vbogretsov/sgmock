@@ -4,10 +4,8 @@ SendGrid API v3 mock for using in tests
 
 ## API
 
- * /v3/mail/send -- mock for SendGrid API v3 [send email endpoint]
-                    (https://sendgrid.com/docs/API_Reference/api_v3.html)
- * /ctl/list -- list all sent messages, message format is the same like for
-                send operation
+ * /v3/mail/send -- mock for SendGrid API v3 [send email endpoint](https://sendgrid.com/docs/API_Reference/api_v3.html)
+ * /ctl/list -- list all sent messages, message format is the same like for send operation
  * /ctl/clear -- clear list of sent messages
 
 Examples
@@ -59,7 +57,9 @@ Image: vbogretsov/0.1.0
 
 Port: 9001
 
-Environment variables: ${SGMOCK_KEY} -- test value for SendGrid API key
+Environment variables:
+
+ * SGMOCK_KEY -- test value for SendGrid API key
 
 ## License
 
